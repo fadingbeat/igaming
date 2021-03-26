@@ -25,14 +25,25 @@ nav {
 
 .page-content {
   .page-title {
-    font-family: tahomaBold;
+    font-family: 'tahomaRegular';
     font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin: unset;
+    border-bottom: 1px solid rgba(0,0,0,0.8);
+    -webkit-box-shadow:0px 1px 1px rgb(80, 79, 79);
+    -moz-box-shadow:0px 1px 1px rgb(80, 79, 79);
+    box-shadow:0px 1px 1px rgb(80, 79, 79);
+    padding: 12px;
   }
   p {
     font-family: tahomaRegular;
     font-size: 12px;
     direction: ltr;
     text-indent: 34px;
+    padding: 4px 12px;
+    padding-right: 24px;
+  
   }
 }
 
@@ -66,12 +77,24 @@ aside {
 }
 
 footer {
-  display: flex;
+  // display: flex;
   font-family: tahomaRegular;
   font-size: 14px;
   ul {
     display: inline-flex;
     list-style-type: none;
     text-decoration: underline;
+    float: right;
+    padding-right: 10px;
+    li {
+      margin-right: 20px;
+      &:last-child {
+        margin-right: unset;
+      }
+    }
+  }
+  .left-content {
+    padding-left: 18px;
+    float: left;
   }
 }

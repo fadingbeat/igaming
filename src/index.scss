@@ -26,6 +26,17 @@
       width: 25%;
       background: #012929;
       border: 8px solid #045252;
+      .right-column-1, .right-column-2 {
+        h4 {
+          max-width: 100%;
+        }
+        
+      }
+      .right-column-3 {
+        img {
+          max-width: 100%;
+        }
+      }
     }
   }
   footer {
@@ -35,11 +46,10 @@
     width: 1280px;
   }
 }
-
-header {
-  background: #012929;
-  height: 100px;
-}
+  header {
+    background: #012929;
+    height: 100px;
+  }
 
 a {
 	text-decoration: none;
@@ -119,4 +129,19 @@ nav {
 .logo {
   position: relative;
   top: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  &:hover, &:active {
+    background-color: #138fc7;
+  }
 }

@@ -38,18 +38,27 @@
 
 header {
   background: #012929;
+  height: 100px;
 }
 
 a {
 	text-decoration: none;
 }
 nav {
+  .mainNav {
+    li {
+      margin-right: 3px;
+    }
+  }
+  margin-left: 8px;
+  margin-top: 33.5px;
 	ul {
     background: #056565;
     list-style: none;
     margin: 0;
     padding-left: 0;
     li {
+      padding: 6px 16px;
       ul {
         background: #056565;
         min-width: 5rem;
@@ -62,6 +71,10 @@ nav {
         li {
           clear: both;
           width: 100%;
+          border-bottom: 1px solid #fff;
+          &:last-child {
+            border-bottom: unset;
+          }
         }
       }
     }
@@ -71,7 +84,6 @@ nav {
     background: #056565;
     display: inline;
     float: left;
-    padding: 16px;
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
@@ -95,4 +107,16 @@ nav {
 
 .dropdown-content {
   z-index: 1;
+  width: 140px;
+}
+
+.side-logo {
+  position: fixed;
+  left: 0;
+  float: left;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
 }

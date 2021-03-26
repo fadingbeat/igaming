@@ -1,0 +1,56 @@
+@font-face {
+  font-family: tahomaBold;
+  src: url(/assets/fonts/tahomabd.ttf); }
+
+@font-face {
+  font-family: tahomaRegular;
+  src: url(/assets/fonts/TAHOMA_0.TTF); }
+
+nav {
+  font-family: tahomaBold; }
+  nav ul li {
+    font-size: 14px; }
+    nav ul li ul li {
+      font-family: tahomaRegular;
+      font-size: 12px; }
+
+.page-content .page-title {
+  font-family: tahomaBold;
+  font-size: 48px; }
+
+.page-content p {
+  font-family: tahomaRegular;
+  font-size: 12px;
+  direction: ltr;
+  text-indent: 34px; }
+
+aside .right-column-1 h4 {
+  font-family: tahomaRegular;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+aside .right-column-2 :first-child {
+  font-family: tahomaRegular;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+aside .right-column-2 :last-child {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-decoration: underline;
+  width: 200px; }
+
+aside .right-column-3 {
+  font-family: tahomaRegular;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+footer {
+  display: flex;
+  font-family: tahomaRegular;
+  font-size: 14px; }
+  footer ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: underline; }

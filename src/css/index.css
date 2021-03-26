@@ -1,5 +1,6 @@
 * {
-  color: #fff; }
+  color: #fff;
+  direction: ltr; }
 
 .content-wrapper {
   margin-right: auto;
@@ -9,22 +10,27 @@
   padding-left: 10px; }
   .content-wrapper main {
     position: relative;
-    top: 80px; }
+    top: 10px; }
     .content-wrapper main article {
       float: left;
-      width: 70%;
+      width: 71.9%;
+      height: 574px;
       position: absolute;
       background-color: #1d3a39;
       border: 8px solid #056565; }
     .content-wrapper main aside {
       float: right;
       width: 25%;
+      height: 574px;
       background: #012929;
-      border: 8px solid #045252; }
+      border: 8px solid #045252;
+      padding-left: 8px; }
       .content-wrapper main aside .right-column-1 h4, .content-wrapper main aside .right-column-2 h4 {
         max-width: 100%; }
       .content-wrapper main aside .right-column-3 img {
-        max-width: 100%; }
+        max-width: 100%;
+        width: -webkit-fill-available;
+        padding-right: 8px; }
   .content-wrapper footer {
     position: fixed;
     bottom: 0;

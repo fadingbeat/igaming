@@ -52,29 +52,16 @@ nav {
     li {
       ul {
         background: #056565;
-        visibility: hidden;
-        opacity: 0;
         min-width: 5rem;
         position: absolute;
         transition: all 0.5s ease;
         margin-top: 1rem;
         left: 0;
         display: none;
-        &:hover {
-          visibility: visible;
-          opacity: 1;
-          display: inline;
-        }
+
         li {
           clear: both;
           width: 100%;
-        }
-      }
-      &:hover {
-        >ul {
-          visibility: visible;
-          opacity: 1;
-          display: inline;
         }
       }
     }
@@ -98,3 +85,14 @@ nav {
   }
 }
 
+.fa {
+  padding-left: 15px;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown-content {
+  z-index: 1;
+}

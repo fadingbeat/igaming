@@ -40,25 +40,15 @@ nav ul {
   padding-left: 0; }
   nav ul li ul {
     background: #056565;
-    visibility: hidden;
-    opacity: 0;
     min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;
     left: 0;
     display: none; }
-    nav ul li ul:hover {
-      visibility: visible;
-      opacity: 1;
-      display: inline; }
     nav ul li ul li {
       clear: both;
       width: 100%; }
-  nav ul li:hover > ul {
-    visibility: visible;
-    opacity: 1;
-    display: inline; }
 
 nav li {
   color: #fff;
@@ -74,3 +64,12 @@ nav li {
   nav li:hover {
     background: #056565;
     cursor: pointer; }
+
+.fa {
+  padding-left: 15px; }
+
+.show {
+  display: block; }
+
+.dropdown-content {
+  z-index: 1; }

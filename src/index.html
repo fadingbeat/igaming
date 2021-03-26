@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <link rel="stylesheet" href="/src/css/index.css">
   <link rel="stylesheet" href="/src/css/fonts.css">
   <title>Homepage</title>
@@ -19,8 +20,8 @@
           <li><a href="#!">Home</a></li>
           <li><a href="#!">Sport</a></li>
           <li><a href="#!">Casino</a></li>
-          <li><a href="#!">Games</a>
-            <ul class="dropdown">
+          <li><a href="javascript:dropdownList()" class="dropElement">Games<i class="fa fa-caret-down"></i></a>
+            <ul id="menuDropdown" class="dropdown-content">
               <li><a href="#!">Mega Moolah</a></li>
               <li><a href="#!">The curse of the black Pearl</a></li>
               <li><a href="#!">Super slots attack</a></li>
@@ -72,7 +73,7 @@
         <li><a href="#">Contact us</a></li>
       </ul>
     </footer>
-    
   </div>
+  <script src="/src/js/index.js"></script>
 </body>
 </html>

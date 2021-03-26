@@ -21,6 +21,10 @@
       width: 25%;
       background: #012929;
       border: 8px solid #045252; }
+      .content-wrapper main aside .right-column-1 h4, .content-wrapper main aside .right-column-2 h4 {
+        max-width: 100%; }
+      .content-wrapper main aside .right-column-3 img {
+        max-width: 100%; }
   .content-wrapper footer {
     position: fixed;
     bottom: 0;
@@ -92,3 +96,16 @@ nav {
 .logo {
   position: relative;
   top: 10px; }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #cbcbcb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+  .dot:hover, .dot:active {
+    background-color: #138fc7; }

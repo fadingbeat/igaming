@@ -58,7 +58,29 @@
         </section>
         <section class="right-column-3">
           <h4>Recent stories</h4>
-          <div class="right-column-carousel"></div>
+          <div class="right-column-carousel">
+            <div class="slideshow-container">
+              <div class="mySlides">
+                <img
+                  src="/assets/img/carousel_img.JPG"
+                />
+              </div>
+              <div class="mySlides">
+                <img
+                  src="/assets/img/carousel_img1.JPG"
+                />
+              </div>
+              <div class="mySlides">
+                <img
+                  src="/assets/img/carousel_img2.JPG"
+                />
+              </div>
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
         </section>
       </aside>
     </main>
@@ -75,5 +97,6 @@
     </footer>
   </div>
   <script src="/src/js/index.js"></script>
+  <script src="/src/js/carousel.js"></script>
 </body>
 </html>

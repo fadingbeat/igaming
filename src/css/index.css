@@ -14,14 +14,14 @@
     .content-wrapper main article {
       float: left;
       width: 71.9%;
-      height: 574px;
+      height: calc( 100vh - 198px);
       position: absolute;
       background-color: #1d3a39;
       border: 8px solid #056565; }
     .content-wrapper main aside {
       float: right;
       width: 25%;
-      height: 574px;
+      height: calc( 100vh - 198px);
       background: #012929;
       border: 8px solid #045252;
       padding-left: 8px; }
@@ -30,6 +30,7 @@
       .content-wrapper main aside .right-column-3 img {
         max-width: 100%;
         width: -webkit-fill-available;
+        width: -moz-available;
         padding-right: 8px; }
   .content-wrapper footer {
     position: fixed;
@@ -115,3 +116,23 @@ nav {
   transition: background-color 0.6s ease; }
   .dot:hover, .dot:active {
     background-color: #138fc7; }
+
+.icon {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  main article {
+    overflow: scroll;
+    position: unset !important; }
+  main .page-content, main .aside-content {
+    width: 97% !important; }
+  main aside {
+    padding-left: unset !important; }
+  .side-logo {
+    display: none; }
+  .mainNav {
+    display: none; }
+  .icon {
+    display: block;
+    float: right;
+    margin-right: 1rem; } }

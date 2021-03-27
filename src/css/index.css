@@ -36,7 +36,8 @@
     position: fixed;
     bottom: 0;
     background-color: #056565;
-    width: 1280px; }
+    width: 1280px;
+    max-width: calc( 100vw - 2.25rem); }
 
 header {
   background: #012929;
@@ -135,4 +136,16 @@ nav {
   .icon {
     display: block;
     float: right;
-    margin-right: 1rem; } }
+    margin-right: 1rem; }
+  .content-wrapper footer {
+    font-size: 0.875rem;
+    text-align: center; }
+    .content-wrapper footer .left-content {
+      padding-left: unset;
+      float: unset; }
+    .content-wrapper footer ul {
+      float: unset;
+      display: block;
+      padding-left: unset; }
+      .content-wrapper footer ul li {
+        margin-right: unset; } }

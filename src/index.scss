@@ -16,8 +16,8 @@
     article {
       float: left;
       width: 71.9%;
-      // height: calc(100vh - 145.6px);
-      height: 574px;
+      height: calc( 100vh - 198px);
+      // height: 574px;
       position: absolute;
       background-color: #1d3a39;
       border: 8px solid #056565;
@@ -27,7 +27,8 @@
     aside {
       float: right;
       width: 25%;
-      height: 574px;
+      height: calc( 100vh - 198px);
+      // height: 574px;
       background: #012929;
       border: 8px solid #045252;
       padding-left: 8px;
@@ -41,6 +42,7 @@
         img {
           max-width: 100%;
           width: -webkit-fill-available;
+          width: -moz-available;
           padding-right: 8px;
         }
       }
@@ -150,5 +152,23 @@ nav {
   transition: background-color 0.6s ease;
   &:hover, &:active {
     background-color: #138fc7;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    article {
+      overflow: scroll;
+      position: unset !important;
+    }
+    .page-content, .aside-content {
+      width: 97% !important;
+    }
+    aside {
+      padding-left: unset !important;
+    }
+  }
+  .side-logo {
+    display: none;
   }
 }

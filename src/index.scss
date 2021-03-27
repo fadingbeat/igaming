@@ -53,6 +53,7 @@
     bottom: 0;
     background-color: #056565;
     width: 1280px;
+    max-width: calc( 100vw - 2.25rem);
   }
 }
   header {
@@ -183,5 +184,25 @@ nav {
     display: block;
     float: right;
     margin-right: 1rem;
+  }
+
+  .content-wrapper {
+    footer {
+
+      font-size: 0.875rem;
+      text-align: center;
+      .left-content {
+        padding-left: unset;
+        float: unset;
+      }
+      ul {
+        float: unset;
+        display: block;
+        padding-left: unset;
+        li {
+          margin-right: unset;
+        }
+      }
+    }
   }
 }

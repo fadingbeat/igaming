@@ -129,6 +129,12 @@ nav {
     width: 97% !important; }
   main aside {
     padding-left: unset !important; }
+    main aside .right-column-1, main aside .right-column-2 {
+      padding-left: 0.75rem; }
+    main aside .right-column-3 h4 {
+      padding-left: 0.75rem; }
+    main aside .right-column-3 img {
+      padding-left: 0.75rem; }
   .side-logo {
     display: none; }
   .mainNav {

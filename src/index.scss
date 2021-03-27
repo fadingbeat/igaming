@@ -171,6 +171,17 @@ nav {
     }
     aside {
       padding-left: unset !important;
+      .right-column-1, .right-column-2 {
+        padding-left: 0.75rem;
+      }
+      .right-column-3 {
+        h4{
+          padding-left: 0.75rem;
+        }
+        img {
+          padding-left: 0.75rem;
+        }
+      }
     }
   }
   .side-logo {

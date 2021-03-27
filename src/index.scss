@@ -217,3 +217,16 @@ nav {
     }
   }
 }
+
+//IE > 10
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .content-wrapper {
+    main {
+      article {
+        height: unset;
+        position: unset;
+      }
+    }
+  }
+}

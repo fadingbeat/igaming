@@ -155,6 +155,10 @@ nav {
   }
 }
 
+.icon {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   main {
     article {
@@ -170,5 +174,14 @@ nav {
   }
   .side-logo {
     display: none;
+  }
+
+  .mainNav {
+    display: none;
+  }
+  .icon {
+    display: block;
+    float: right;
+    margin-right: 1rem;
   }
 }

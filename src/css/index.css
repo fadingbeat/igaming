@@ -117,6 +117,9 @@ nav {
   .dot:hover, .dot:active {
     background-color: #138fc7; }
 
+.icon {
+  display: none; }
+
 @media only screen and (max-width: 768px) {
   main article {
     overflow: scroll;
@@ -126,4 +129,10 @@ nav {
   main aside {
     padding-left: unset !important; }
   .side-logo {
-    display: none; } }
+    display: none; }
+  .mainNav {
+    display: none; }
+  .icon {
+    display: block;
+    float: right;
+    margin-right: 1rem; } }
